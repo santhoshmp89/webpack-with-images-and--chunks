@@ -1,0 +1,26 @@
+{
+  "name": "webpack-new-tut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --watch",
+    "prod": "SET NODE_ENV=production & webpack -p"
+  },
+  "author": "@santhosh",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap-loader": "^2.1.0",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.5.3",
+    "resolve-url-loader": "^2.1.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "3.5.1",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
